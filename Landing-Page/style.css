@@ -26,6 +26,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 -70px;
 }
 
 ul{
@@ -124,19 +125,21 @@ img{
 
 .container-three{
     padding: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .blue-box{
     background-color: #3882f6; 
     display: flex; 
-    justify-content: space-around;
-    padding: 20px 80px;
-    gap: 50px;
+    padding: 20px 100px;
+    gap: 30px;
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .bold-text{
@@ -148,7 +151,6 @@ img{
 .btn-two{
     margin: auto;
     border: 2px solid #e5e7eb;
-    width: 25%;
     flex-shrink: 0;
 }
 
