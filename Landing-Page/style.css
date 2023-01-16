@@ -56,7 +56,8 @@ img{
     padding: 100px;
 }
 
-.btn{
+.btn,
+.btn-two{
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
@@ -119,4 +120,41 @@ img{
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.container-three{
+    padding: 100px;
+}
+
+.blue-box{
+    background-color: #3882f6; 
+    display: flex; 
+    justify-content: space-around;
+    padding: 20px 80px;
+    gap: 50px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.bold-text{
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: auto;
+}
+
+.btn-two{
+    margin: auto;
+    border: 2px solid #e5e7eb;
+    width: 25%;
+    flex-shrink: 0;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
 }
